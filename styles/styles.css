@@ -7,6 +7,16 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.hero {
+    background-image: url(../images/images_/fondo1.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .hero__inicio {
     background-image: url(../images/images_/fondo1.jpg);
@@ -108,6 +118,16 @@ header {
 
 /*PAGINA TATTOO*/
 
+.hero__tatuajes {
+    background-image: url(../images/images_/fondo1.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*PAGINA DISEÑOS*/
@@ -145,6 +165,16 @@ header {
 
 
 /*PAGINA CONTACTO*/
+
+.hero__contacto {
+    background-image: url(../images/images_/fondo1.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
