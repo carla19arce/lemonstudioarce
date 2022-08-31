@@ -1,0 +1,34 @@
+@media screen and (max-width: 480px) {
+
+
+    .hero__header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagenPrincipal {
+
+        max-width: 100%;
+    }
+
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2 rem;
+    }
+
+
+    .piedepagina {
+        display: flex;
+    }
+
+
+    .fotobio {
+        justify-content: center;
+        margin-left: 2rem;
+    }
+
+
+}

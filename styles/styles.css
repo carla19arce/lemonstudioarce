@@ -18,99 +18,44 @@
 }
 
 
-.hero__inicio {
-    background-image: url(../images/images_/fondo1.jpg);
-    height: 90vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text_logo {
-    font-family: 'Monoton', cursive;
-    color: rgb(55, 14, 94);
-    padding-inline: 30px;
-    font-size: 4rem;
-    letter-spacing: 10px;
-    animation: tracking-in-expand 2s cubic-bezier(.215, .61, .355, 1.000) both;
-}
-
-
-@keyframes tracking-in-expand {
-    0% {
-        letter-spacing: -.5em;
-        opacity: 0
-    }
-
-    40% {
-        opacity: .6
-    }
-
-    100% {
-        opacity: 1
-    }
-}
-
-header {
-    background-color: rgba(255, 160, 122, 0.774);
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.menu {
-    list-style-type: none;
-    background-color: rgba(255, 160, 122, 0.658);
-    padding: 20px;
-}
-
-
-.menu__item {
-    display: inline-block;
-    margin-right: 20px;
-    margin-left: 10px;
-    padding-top: 60px;
-}
-
-.menu__item a {
-    color: rgb(66, 14, 87);
-    text-decoration: none;
-    font-size: 25px;
-}
-
-
-.menu__item.active a {
-    text-decoration: underline;
-}
-
 
 /**CARDS**/
 
 .container__cards {
-    padding: 6rem;
+    padding: 2rem;
     padding-top: 0;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.card img {
-    max-width: 300px;
+.card {
+    flex: 1;
+    background-color: rgb(243, 190, 172);
+}
+
+.card-img-top {
+    max-width: 1200px;
+}
+
+.card-text {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .container__cards .card:hover {
     transform: translateY(-50px);
     box-shadow: 0 12px 16px rgba (0, 0, 0, 0.2);
     background-color: violet;
+    color: rgb(102, 54, 148);
 }
 
 
 /*PIE DE PAGINA*/
 
-.piedepagina {
-    background-color: lightsalmon;
-    text-align: center;
-}
 
 .piedepagina .pie__foot {
     color: white;
@@ -118,86 +63,27 @@ header {
 
 /*PAGINA TATTOO*/
 
-.hero__tatuajes {
-    background-image: url(../images/images_/fondo1.jpg);
-    height: 90vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 /*PAGINA DISEÑOS*/
 
-.hero__diseno {
-    background-image: url(../images/images_/fondo1.jpg);
-    height: 90vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /*BIO*/
-
-.hero__bio {
-    background-image: url(../images/images_/fondo1.jpg);
-    height: 90vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bio {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
 
 
 
 /*PAGINA CONTACTO*/
 
-.hero__contacto {
-    background-image: url(../images/images_/fondo1.jpg);
-    height: 90vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
+
+/*MEDIA QUERIES*/
 
 
 @media screen and (max-width: 480px) {
 
-    body {
-        background-color: rgba(247, 92, 234, 0.507);
-    }
 
     .hero__header {
         flex-direction: column;
         text-align: center;
-    }
-
-    .text_logo {
-        font-size: 2.6rem;
-    }
-
-    .menu {
-        align-items: flex-start;
-        padding-top: 0rem;
-        padding-bottom: 0.1rem;
-        background-color: rgba(148, 102, 85, 0.281);
     }
 
     .imagenPrincipal {
@@ -205,13 +91,6 @@ header {
         max-width: 100%;
     }
 
-    .grid {
-        padding: 0.5rem;
-        background-color: rgba(189, 140, 235, 0.733);
-        border-radius: 2rem;
-        gap: 2rem;
-        display: inline;
-    }
 
     .container {
         display: inline;
@@ -219,35 +98,18 @@ header {
     }
 
     .container .card {
-        background-color: rgba(255, 127, 80, 0.76);
+        background-color: rgb(243, 190, 172);
     }
 
     .piedepagina {
         display: flex;
     }
 
-    .bio {
-        display: inline;
-    }
 
     .fotobio {
         justify-content: center;
         margin-left: 2rem;
     }
 
-    .infobio {
-        background-color: burlywood;
-        font-size: 1.1rem;
-        padding: 20px;
-        border-radius: 10px;
-        right: 10px;
-        height: 300px;
-        line-height: 1.5;
-    }
-s
-
-    .aviso {
-        color: rgb(161, 79, 236);
-    }
 
 }
