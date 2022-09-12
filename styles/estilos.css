@@ -65,6 +65,14 @@
     opacity: 1;
   }
 }
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  padding-block: 1rem;
+}
+
 .info {
   background-color: rgb(184, 118, 118);
   color: black;
@@ -115,6 +123,34 @@ footer .piedepagina .pie__foot {
   gap: 1rem;
   justify-content: center;
   align-items: center;
+}
+
+.fa-facebook, .fa-whatsapp, .fa-instagram {
+  background-color: blue;
+}
+
+.fa-instagram {
+  background-color: rgb(226, 60, 87);
+}
+
+.fa-whatsapp {
+  background-color: green;
+}
+
+.fa-facebook, .fa-whatsapp, .fa-instagram {
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+  margin: 1rem;
+  justify-content: center;
+  border-radius: 5px;
+}
+.fa-facebook:hover, .fa-whatsapp:hover, .fa-instagram:hover {
+  background-color: crimson;
+}
+
+footer .foot {
+  background-color: rgb(226, 60, 87);
 }
 
 @media screen and (max-width: 480px) {

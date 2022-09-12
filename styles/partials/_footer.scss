@@ -22,6 +22,37 @@ footer {
 
         }
     }
+}
 
+$redes: (
+    facebook: blue,
+    instagram: rgb(226, 60, 87),
+    whatsapp: green,
+);
 
+@each $redsocial, $colordered in $redes {
+    .fa-#{$redsocial} {
+        background-color: $colordered;
+    }
+}
+
+.fa-facebook {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    margin: 1rem;
+    justify-content: center;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: crimson;
+    }
+}
+
+.fa-whatsapp, .fa-instagram {
+    @extend .fa-facebook;
+}
+
+footer .foot {
+background-color: map-get($redes, instagram);
 }
