@@ -12,44 +12,62 @@
 </head>
 
 <body class="bg-danger bg-opacity-50">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4 p-sm-2">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Lemon Studio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/disenos.html">Diseños</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/tatuajes.html">Tattoo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/bio.html">Bio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4 p-sm-2">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Lemon Studio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/disenos.html">Diseños</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/tatuajes.html">Tattoo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/bio.html">Bio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <section class="hero">
         <h2 class="text-light d-flex bg-danger bg-opacity-50 p-3 rounded-pill">Bienvenidos a Lemon Studio</h2>
     </section>
-    <h4 class="text-light bg-black bg-opacity-75 p-3 aling-items-center justify-content-center d-flex">Algunos trabajos</h4>
-</section>
+    <section>
+        <div class="text-light bg-black bg-opacity-75 p-3 aling-items-center justify-content-center d-flex">
+            <h2>
+                Arte
+            </h2>
+        </div>
+        <div class="text-black-50 bg-danger bg-opacity-50 p-5 m-3 aling-items-center justify-content-center d-flex">
+            <h3>El arte es el concepto que engloba todas las creaciones realizadas por el ser humano para expresar una
+                visión sensible acerca del mundo, ya sea real o imaginario. Permite expresar ideas, emociones,
+                percepciones y sensaciones.
+                <br> 
+                Te invito a que recorras un poquito de mi arte. Desde expresiones sobre
+                paredes, maderas y lienzos, como también sobre muebles, prendas y piel.
+            </h3>
+        </div>
+        <h2 class="text-light bg-black bg-opacity-50 p-3 aling-items-center justify-content-center d-flex">Algunos
+            trabajos</h2>
+    </section>
     <section class="container__cards">
         <div class="row">
             <div class="col-md-4">
                 <div class="card mt-4 gap-1 p-3 mt-sm-6">
-                    <img src="./images/images_/murales/mural2.jpeg" class="card-img-top" alt="imagen1">
+                    <a href="./pages/disenos.html"><img src="./images/images_/murales/mural2.jpeg" class="card-img-top" alt="imagen1"></a>
                     <div class="card-body">
                         <p class="card-text">Murales</p>
                     </div>
@@ -73,10 +91,20 @@
             </div>
         </div>
     </section>
-    <footer class="piedepagina bg-black mt-5">
-        <p class="pie__foot">Todos los derechos reservados</p>
-        <p class="pie__foot">Diseño Carlaarceg</p>
+    <footer>
+        <div class="piedepagina bg-black mt-5">
+            <div class="pie__foot">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div>
+                <h4>Diseño Carlaarceg</h4>
+            </div>
+        </div>
     </footer>
+    <script src="https://kit.fontawesome.com/b7ea75b7e0.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>

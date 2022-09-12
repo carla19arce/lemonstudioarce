@@ -1,0 +1,15 @@
+.button {
+    background-color: rgb(247, 235, 238);
+    border-color: rgb(247, 235, 238);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.button:hover {
+    transform: translateY(20px);
+    box-shadow: 0 12px 16px rgba (0, 0, 0, 0.2);
+    background-color: $secondaryColor;
+    color: $tertiaryColor;
+}
+
+
