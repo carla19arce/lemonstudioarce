@@ -2,9 +2,9 @@ footer {
     padding-top: 0;
 
     .piedepagina {
-        background-image: url(/images/images_/fonso2.jpg);
+        background-image: url(/images/images_/fonso2.png);
         display: flex;
-        justify-content: center;
+        justify-content: center center;
         flex-direction: column;
         align-items: center;
         color: black;
@@ -17,7 +17,7 @@ footer {
         .pie__foot {
             display: flex;
             gap: 1rem;
-            justify-content: center;
+            justify-content: center center;
             align-items: center;
 
         }
@@ -37,12 +37,13 @@ $redes: (
 }
 
 .fa-facebook {
-    width: 60px;
     height: 60px;
     font-size: 60px;
     margin: 1rem;
     justify-content: center;
+    align-items: center;
     border-radius: 5px;
+    color: black;
 
     &:hover {
         background-color: crimson;

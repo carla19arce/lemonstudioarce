@@ -1,5 +1,10 @@
+.header {
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
 .hero {
-    background-image: url(../images/images_/fondo1.jpg);
+    background-image: url(/images/images_/fondo1.png);
     height: 90vh;
     background-size: cover;
     background-position: center center;
