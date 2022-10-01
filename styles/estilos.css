@@ -13,7 +13,7 @@
 }
 
 .hero {
-  background-image: url(/images/images_/fondo11.jpg);
+  background-image: url("/images/images_/fondo1.png");
   height: 90vh;
   background-size: cover;
   background-position: center center;
@@ -113,7 +113,7 @@ footer {
   padding-top: 0;
 }
 footer .piedepagina {
-  background-image: url(/images/images_/fonso22.jpg);
+  background-image: url("/images/images_/fonso2.png");
   display: flex;
   justify-content: center center;
   flex-direction: column;
